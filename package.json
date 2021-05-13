@@ -1,5 +1,5 @@
 {
-  "name": "uber",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FullDream/uber.git"
+    "url": "git+https://github.com/FullDream/pulse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FullDream/uber/issues"
+    "url": "https://github.com/FullDream/pulse/issues"
   },
-  "homepage": "https://github.com/FullDream/uber#readme",
+  "homepage": "https://github.com/FullDream/pulse#readme",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
