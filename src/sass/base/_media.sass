@@ -1,13 +1,22 @@
+@media ( max-width: 1200px )
+    .carousel
+        &__wrapper
+            width: 650px
+            margin: 0 auto
 
 @media ( max-width: 992px )
     .container
-        max-width: 770px
+        max-width: 730px
     .advantagers
         &__block
             width: 202px
+    .carousel
+        &__wrapper
+            width: 550px
 
 @media ( max-width: 768px)
     .container
+        max-width: 550px
     .advantagers
         padding: 50px 15px 50px 15px
 
@@ -26,16 +35,25 @@
                 height: 28px
         &__phone
             font-size: 16px
+    .consultation
+        padding: 80px 0 85px 0
+        &__descr
+            margin-top: 50px
 
     .promo
         &__header
             font-size: 40px
         &__subheader
             font-size: 22px
+    .carousel
+        &__wrapper
+            width: 450px
+        .prev, .next
+            display: none
 
 @media (max-width: 576px)
     .container
-        padding: 0 8px 0 8px
+        max-width: 410px
     .header
         flex-direction: column
         &__logo
@@ -75,5 +93,37 @@
         &__text
             margin-top: 3px
     .consultation
-            padding: 100px 15px 92px 15px
+        padding: 100px 15px 92px 15px
 
+    .carousel
+        &__wrapper
+            width: 350px
+            
+@media (max-width: 425px)
+    .title
+        font-size: 26px
+    .container
+        max-width: 360px
+
+@media (max-width: 375px)
+    .title
+        font-size: 24px
+    .container
+        max-width: 300px
+
+@media (max-width: 320px)
+    .carousel
+        &__wrapper
+            width: 290px
+    .promo
+        &__header
+            font-size: 25px
+        &__subheader
+            font-size: 14px
+        &__icons
+            width: 315px
+    .consultation
+        .title_left
+            font-size: 20px
+        &__descr
+            font-size: 10px
