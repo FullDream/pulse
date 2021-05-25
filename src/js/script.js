@@ -47,6 +47,10 @@ document.querySelector('.next').addEventListener('click', function () {
       toggleSlide('.catalog-item__list__back');
 
 
+
       
     });
     })(jQuery);
+
+
+

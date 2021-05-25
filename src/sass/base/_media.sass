@@ -13,6 +13,8 @@
     .carousel
         &__wrapper
             width: 550px
+    .catalog
+        padding-bottom: 76px
 
 @media ( max-width: 768px)
     .container
@@ -50,6 +52,22 @@
             width: 450px
         .prev, .next
             display: none
+    .catalog
+        padding-bottom: 68px
+    .footer
+        &__info
+            padding: 40px 59px 59px 50px
+            width: 400px
+            height: 230px
+        &__adress
+            font-size: 16px
+            line-height: 16px
+        &__phone
+            margin-top: 27px
+            font-size: 18px
+            line-height: 18px
+        &__social
+            margin-top: 25px
 
 @media (max-width: 576px)
     .container
@@ -70,6 +88,14 @@
                 height: 35px
         &__phone
             font-size: 22px
+    .catalog
+        &__tabs
+            margin-top: 45px
+        &__tab
+            width: 150px
+            height: 35px
+            font-size: 13px
+            line-height: 34px
 
     .promo
         &__header
@@ -98,20 +124,63 @@
     .carousel
         &__wrapper
             width: 350px
-            
+    .reviews
+        &__wrapper
+            margin-top: 50px
+            hr
+                margin: 25px 0
+        &__item
+            flex-direction: column
+            align-items: center
+        &__img
+            margin-right: 0
+        &__descr
+            margin-top: 17px
+            text-align: center
+        &__score
+            margin-top: 5px
+        &__text
+            margin-top: 14px
+    .footer
+        &__info
+            position: relative
+            padding: 23px 27px 23px 27px
+            width: 100%
+            height: 190px
+        &__adress
+            font-size: 20px
+            line-height: 20px
+        &__phone
+            margin-top: 27px
+            font-size: 24px
+            line-height: 24px
+        &__social
+            margin-top: 25px
+
 @media (max-width: 425px)
     .title
         font-size: 26px
     .container
         max-width: 360px
+    .catalog
+        &__tab
+            width: 120px
+            height: 30px
+            font-size: 12px
+            line-height: 30px
 
 @media (max-width: 375px)
     .title
         font-size: 24px
     .container
         max-width: 300px
+    .footer
+        &__info
+            padding: 23px 20px 23px 20px
 
 @media (max-width: 320px)
+    .title
+        font-size: 22px
     .carousel
         &__wrapper
             width: 290px
@@ -127,3 +196,12 @@
             font-size: 20px
         &__descr
             font-size: 10px
+    .catalog
+        &__tab
+            width: 110px
+            height: 27px
+            font-size: 9px
+            line-height: 27px
+    .footer
+        &__info
+            padding: 12px 15px 12px 15px
