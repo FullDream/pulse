@@ -168,6 +168,15 @@
             height: 30px
             font-size: 12px
             line-height: 30px
+    .feed-form
+        width: 250px
+    .overlay
+        .modal
+            width: 330px
+            &__subtitle
+                font-size: 15px
+            &__descr
+                font-size: 12px
 
 @media (max-width: 375px)
     .title
@@ -177,6 +186,12 @@
     .footer
         &__info
             padding: 23px 20px 23px 20px
+    
+    .overlay
+        .modal
+            &__close
+                top: -32px
+                right: 0
 
 @media (max-width: 320px)
     .title
@@ -205,3 +220,16 @@
     .footer
         &__info
             padding: 12px 15px 12px 15px
+    .overlay
+        .modal
+            padding: 20px
+            width: 270px
+            &__subtitle
+                font-size: 15px
+            &__descr
+                font-size: 12px
+            .feed-form
+                width: 230px
+            .button__submit
+                height: 43px
+                font-size: 14px
